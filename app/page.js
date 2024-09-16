@@ -20,7 +20,7 @@ const page = () => {
      copyTask.splice(i,1)
      setmainTask(copyTask)
   }
-  
+
   let renderTask=<h2 className='text-xl font-semibold'>No Task Available</h2>
   if (mainTask.length>0) {
     renderTask=mainTask.map((t,i) => {
